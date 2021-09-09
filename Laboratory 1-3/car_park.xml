@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="car_park.xsl"?>
+<park>
+    <car>
+        <brand>Lada</brand>
+        <model>Калина</model>
+        <year>2013</year>
+        <mileage>116300</mileage>
+    </car>
+    <car>
+        <brand>Volkswagen</brand>
+        <model>Polo</model>
+        <year>2016</year>
+        <mileage>63560</mileage>
+    </car>
+    <car>
+        <brand>Honda</brand>
+        <model>Accord</model>
+        <year>2011</year>
+        <mileage>175000</mileage>
+    </car>
+</park>
