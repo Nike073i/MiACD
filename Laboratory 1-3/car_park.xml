@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="car_park.xsl"?>
 <!DOCTYPE park SYSTEM "car_park.dtd">
-<park>
+<park xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="car_park.xsd">
     <car id="firstCar">
         <brand>Lada</brand>
         <model>Калина</model>
