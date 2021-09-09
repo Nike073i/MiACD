@@ -1,0 +1,7 @@
+<!ELEMENT park (car*)>
+        <!ELEMENT car (brand,model,year,mileage)>
+        <!ATTLIST car id ID #REQUIRED>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT mileage (#PCDATA)>
