@@ -6,38 +6,30 @@
             <body>
                 <h2>
                     <u>
-                        <i>Машины:</i>
+                        <i>Водители:</i>
                     </u>
                 </h2>
-                <table border="1" cols="6" cellpadding="10">
+                <table border="1" cols="4" cellpadding="10">
                     <tr bgcolor="#ff6600">
                         <th>id</th>
-                        <th>Марка</th>
-                        <th>Модель</th>
-                        <th>Год</th>
-                        <th>Пробег</th>
-                        <th>VIN</th>
+                        <th>Имя</th>
+                        <th>Фамилия</th>
+                        <th>Номер телефона</th>
                     </tr>
-                    <xsl:for-each select="cars/car">
+                    <xsl:for-each select="drivers/driver">
                         <xsl:sort select="@id"/>
                         <tr>
                             <td>
                                 <xsl:value-of select="@id"/>
                             </td>
                             <td>
-                                <xsl:value-of select="brand"/>
+                                <xsl:value-of select="first_name"/>
                             </td>
                             <td>
-                                <xsl:value-of select="model"/>
+                                <xsl:value-of select="second_name"/>
                             </td>
                             <td>
-                                <xsl:value-of select="production_year"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="mileage"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="vin_num"/>
+                                <xsl:value-of select="contact_num"/>
                             </td>
                         </tr>
                     </xsl:for-each>

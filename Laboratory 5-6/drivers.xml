@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="drivers.xsl"?>
+<drivers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="drivers.xsd">
+    <driver id="1001">
+        <first_name>Иван</first_name>
+        <second_name>Иванов</second_name>
+        <contact_num>+79156346230</contact_num>
+    </driver>
+
+    <driver id="1002">
+        <first_name>Петр</first_name>
+        <second_name>Ломов</second_name>
+        <contact_num>+79271135190</contact_num>
+    </driver>
+
+    <driver id="1003">
+        <first_name>Николай</first_name>
+        <second_name>Сергеев</second_name>
+        <contact_num>+79631101115</contact_num>
+    </driver>
+</drivers>
+

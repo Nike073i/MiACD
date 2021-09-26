@@ -1,0 +1,37 @@
+<accesses>
+    <car_driver_access>
+        <car_id>1</car_id>
+        <driver_id>1001</driver_id>
+        <date_start_use>2021-03-21</date_start_use>
+        <date_end_use>2021-10-21</date_end_use>
+    </car_driver_access>
+
+    <car_driver_access>
+        <car_id>1</car_id>
+        <driver_id>1003</driver_id>
+        <date_start_use>2022-04-11</date_start_use>
+        <date_end_use>2022-11-11</date_end_use>
+    </car_driver_access>
+
+    <car_driver_access xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <car_id>2</car_id>
+        <driver_id>1002</driver_id>
+        <date_start_use>2020-05-01</date_start_use>
+        <date_end_use xsi:nil="true"/>
+    </car_driver_access>
+
+    <car_driver_access>
+        <car_id>3</car_id>
+        <driver_id>1002</driver_id>
+        <date_start_use>2021-01-04</date_start_use>
+        <date_end_use>2021-08-04</date_end_use>
+    </car_driver_access>
+
+    <car_driver_access xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <car_id>3</car_id>
+        <driver_id>1003</driver_id>
+        <date_start_use>2021-10-10</date_start_use>
+        <date_end_use xsi:nil="true"/>
+    </car_driver_access>
+</accesses>
+

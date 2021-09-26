@@ -16,8 +16,8 @@
    }
 
    function displayResult() {
-      xml = loadXMLDoc("cars.xml");
-      xsl = loadXMLDoc("cars.xsl");
+      xml = loadXMLDoc("drivers.xml");
+      xsl = loadXMLDoc("drivers.xsl");
       // код для IE
       if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
          ex = xml.transformNode(xsl);
