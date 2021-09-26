@@ -50,3 +50,7 @@ INSERT INTO Car_Driver_Access VALUES
 (2,1002,'2020-05-01',NULL),
 (3,1002,'2021-01-04','2021-08-04'),
 (3,1003,'2021-10-10',NULL);
+
+CREATE INDEX ON Car using btree(brand);
+CREATE INDEX ON Car_Driver_Access using btree(date_start_use);
+CREATE INDEX ON Car_Driver_Access using btree(date_end_use);
