@@ -1,0 +1,16 @@
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.csproj.AssemblyReference.cache
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.csproj.GenerateResource.cache
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.AssemblyInfoInputs.cache
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.AssemblyInfo.cs
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.csproj.CoreCompileInputs.cache
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.exe
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.deps.json
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.runtimeconfig.json
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.runtimeconfig.dev.json
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.dll
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\bin\Debug\netcoreapp3.1\WinFormsMiacdView.pdb
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.FormMain.resources
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.dll
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.pdb
+C:\Study\VisualStudioRepos\MiakdSharp\WinFormsMiacd\WinFormsMiacdView\obj\Debug\netcoreapp3.1\WinFormsMiacdView.genruntimeconfig.cache

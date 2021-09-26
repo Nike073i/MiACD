@@ -1,0 +1,10 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Skuld\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Skuld\\.nuget\\packages",
+      "C:\\WorkPrograms\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}
