@@ -1,0 +1,52 @@
+CREATE SEQUENCE IF NOT EXISTS Car_seq
+INCREMENT BY 1 START WITH 1;
+
+CREATE SEQUENCE IF NOT EXISTS Driver_seq
+INCREMENT BY 1 START WITH 1001;
+
+CREATE TABLE CAR(
+	id int DEFAULT nextval ('Car_seq'),
+	brand varchar(50) NOT NULL,
+	model varchar(50) NOT NULL,
+	production_year int NOT NULL,
+	mileage int NOT NULL,
+	vin_num varchar(17) NOT NULL,
+	CONSTRAINT pk_car PRIMARY KEY (id),
+	UNIQUE(vin_num),
+	CONSTRAINT car_production_check CHECK (production_year>1900 AND production_year <=extract(year from current_date)),
+	CONSTRAINT car_mileage_check CHECK (mileage>0 AND mileage<1000000)
+);
+
+CREATE TABLE Driver(
+	id int DEFAULT nextval ('Driver_seq'),
+	first_name varchar(255) NOT NULL,
+	second_name varchar(255) NOT NULL,
+	contact_num varchar(12) NOT NULL,
+	CONSTRAINT pk_driver PRIMARY KEY (id),
+	UNIQUE(contact_num)
+);
+
+CREATE TABLE Car_Driver_Access(
+	car_id int NOT NULL,
+	driver_id int NOT NULL,
+	date_start_use date NOT NULL,
+	date_end_use date NULL,
+	CONSTRAINT pk_car_driver_access PRIMARY KEY (car_id,driver_id)
+);
+
+INSERT INTO Car VALUES
+(default,'Lada','Калина 2',2013,116300,'XTA219210D0020265'),
+(default,'Volkswagen','Polo',2013,116300,'XBA649532D1W172W5'),
+(default,'Honda','Accord',2011,178230,'1HB139417D6TSS0XB');
+
+INSERT INTO Driver VALUES
+(default,'Иван','Иванов','+79156346230'),
+(default,'Петр','Ломов','+79271135190'),
+(default,'Николай','Сергеев','+79631101115');
+
+INSERT INTO Car_Driver_Access VALUES
+(1,1001,'2021-03-21','2021-10-21'),
+(1,1003,'2022-04-11','2022-11-11'),
+(2,1002,'2020-05-01',NULL),
+(3,1002,'2021-01-04','2021-08-04'),
+(3,1003,'2021-10-10',NULL);

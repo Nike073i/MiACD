@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cars.xsd">
+    <car id="1">
+        <brand>Lada</brand>
+        <model>Калина 2</model>
+        <production_year>2013</production_year>
+        <mileage>116300</mileage>
+        <vin_num>XTA219210D0020265</vin_num>
+    </car>
+
+    <car id="2">
+        <brand>Volkswagen</brand>
+        <model>Polo</model>
+        <production_year>2013</production_year>
+        <mileage>116300</mileage>
+        <vin_num>XBA649532D1W172W5</vin_num>
+    </car>
+
+    <car id="3">
+        <brand>Honda</brand>
+        <model>Accord</model>
+        <production_year>2011</production_year>
+        <mileage>178230</mileage>
+        <vin_num>1HB139417D6TSS0XB</vin_num>
+    </car>
+</cars>
